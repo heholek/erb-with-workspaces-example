@@ -1,0 +1,1 @@
+# erb-with-workspaces-example
