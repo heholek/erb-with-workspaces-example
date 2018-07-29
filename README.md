@@ -1,1 +1,1 @@
-# erb-with-workspaces-example
+# Example of how to use Yarn Workspaces with Electron React Boilerplate

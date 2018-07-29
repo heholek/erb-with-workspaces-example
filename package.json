@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "electron-react-boilerplate-workspaces-example",
+  "description": "An example of how to use electron-react-boilerplate with yarn workspaces.",
+  "license": "MIT",
+  "author": "vikr01 <vik120@icloud.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikr01/erb-with-workspaces-example.git"
+  },
+  "bugs": "https://github.com/vikr01/erb-with-workspaces-example/issues",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier-package-json": "^1.6.0"
+  },
+  "lint-staged": {
+    "package.json": [
+      "prettier-package-json --write",
+      "git add"
+    ]
+  }
+}
