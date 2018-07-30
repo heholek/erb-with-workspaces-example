@@ -35,7 +35,7 @@
   },
   "browserslist": "electron 1.6",
   "workspaces": {
-    "nohoist": ["webpack", "webpack-dev-server", "eslint-formatter-pretty", "fbjs-scripts"]
+    "nohoist": ["*"]
   },
   "lint-staged": {
     "*.js": [
