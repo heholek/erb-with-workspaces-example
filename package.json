@@ -13,7 +13,8 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ]
+    ],
+    "nohoist": ["electron-react-boilerplate/**/*"]
   },
   "scripts": {
     "precommit": "lint-staged",

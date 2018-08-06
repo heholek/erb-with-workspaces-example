@@ -1,0 +1,3 @@
+[submodule "packages/electron-react-boilerplate"]
+	path = packages/electron-react-boilerplate
+	url = github-vikr01:chentsulin/electron-react-boilerplate.git
